@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0BC3A02AD3CA3D0095FA7A /* AdmiralButtonsViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BC39F2AD3CA3D0095FA7A /* AdmiralButtonsViewerApp.swift */; };
+		0E0BC3A42AD3CA3F0095FA7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0BC3A32AD3CA3F0095FA7A /* Assets.xcassets */; };
+		0E0BC3A72AD3CA3F0095FA7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0BC3A62AD3CA3F0095FA7A /* Preview Assets.xcassets */; };
+		0E0BC3B72AD3CE1F0095FA7A /* AdmiralButtonsSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0E0BC3B62AD3CE1F0095FA7A /* AdmiralButtonsSwiftUI */; };
+		0E0BC3BA2AD3D0860095FA7A /* ButtonsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BC3B82AD3D0860095FA7A /* ButtonsSwiftUIView.swift */; };
+		0E0BC3BB2AD3D0860095FA7A /* ButtonsSwiftUIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BC3B92AD3D0860095FA7A /* ButtonsSwiftUIItem.swift */; };
+		0E0BC3BD2AD3D0C30095FA7A /* SwiftUIContentViewScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BC3BC2AD3D0C30095FA7A /* SwiftUIContentViewScheme.swift */; };
+		0E0BC3C02AD3D1660095FA7A /* PrimaryButtonsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BC3BF2AD3D1660095FA7A /* PrimaryButtonsSwiftUIView.swift */; };
+		0E0BC3C32AD3D1750095FA7A /* SecondaryButtonsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BC3C22AD3D1750095FA7A /* SecondaryButtonsSwiftUIView.swift */; };
+		0E0BC3C62AD3D17A0095FA7A /* GhostButtonSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BC3C52AD3D17A0095FA7A /* GhostButtonSwiftUIView.swift */; };
+		0E0BC3C92AD3D1800095FA7A /* OtherButtonsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BC3C82AD3D1800095FA7A /* OtherButtonsSwiftUIView.swift */; };
+		0E0BC3D12AD3D61B0095FA7A /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BC3D02AD3D61B0095FA7A /* Assets.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E0BC39C2AD3CA3D0095FA7A /* AdmiralButtonsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdmiralButtonsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E0BC39F2AD3CA3D0095FA7A /* AdmiralButtonsViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmiralButtonsViewerApp.swift; sourceTree = "<group>"; };
+		0E0BC3A32AD3CA3F0095FA7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E0BC3A62AD3CA3F0095FA7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E0BC3B42AD3CE0D0095FA7A /* AdmiralButtonsSwiftUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AdmiralButtonsSwiftUI; path = ..; sourceTree = "<group>"; };
+		0E0BC3B82AD3D0860095FA7A /* ButtonsSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsSwiftUIView.swift; sourceTree = "<group>"; };
+		0E0BC3B92AD3D0860095FA7A /* ButtonsSwiftUIItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsSwiftUIItem.swift; sourceTree = "<group>"; };
+		0E0BC3BC2AD3D0C30095FA7A /* SwiftUIContentViewScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContentViewScheme.swift; sourceTree = "<group>"; };
+		0E0BC3BF2AD3D1660095FA7A /* PrimaryButtonsSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButtonsSwiftUIView.swift; sourceTree = "<group>"; };
+		0E0BC3C22AD3D1750095FA7A /* SecondaryButtonsSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryButtonsSwiftUIView.swift; sourceTree = "<group>"; };
+		0E0BC3C52AD3D17A0095FA7A /* GhostButtonSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GhostButtonSwiftUIView.swift; sourceTree = "<group>"; };
+		0E0BC3C82AD3D1800095FA7A /* OtherButtonsSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherButtonsSwiftUIView.swift; sourceTree = "<group>"; };
+		0E0BC3D02AD3D61B0095FA7A /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E0BC3992AD3CA3D0095FA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0BC3B72AD3CE1F0095FA7A /* AdmiralButtonsSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E0BC3932AD3CA3D0095FA7A = {
+			isa = PBXGroup;
+			children = (
+				0E0BC3B32AD3CE0D0095FA7A /* Packages */,
+				0E0BC39E2AD3CA3D0095FA7A /* AdmiralButtonsViewer */,
+				0E0BC39D2AD3CA3D0095FA7A /* Products */,
+				0E0BC3B52AD3CE1F0095FA7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E0BC39D2AD3CA3D0095FA7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E0BC39C2AD3CA3D0095FA7A /* AdmiralButtonsViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E0BC39E2AD3CA3D0095FA7A /* AdmiralButtonsViewer */ = {
+			isa = PBXGroup;
+			children = (
+				0E0BC3CE2AD3D5FD0095FA7A /* Resources */,
+				0E0BC3CD2AD3D5E80095FA7A /* Classes */,
+				0E0BC3A52AD3CA3F0095FA7A /* Preview Content */,
+			);
+			path = AdmiralButtonsViewer;
+			sourceTree = "<group>";
+		};
+		0E0BC3A52AD3CA3F0095FA7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0E0BC3A62AD3CA3F0095FA7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E0BC3B32AD3CE0D0095FA7A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				0E0BC3B42AD3CE0D0095FA7A /* AdmiralButtonsSwiftUI */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		0E0BC3B52AD3CE1F0095FA7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E0BC3BE2AD3D1660095FA7A /* PrimaryButtons */ = {
+			isa = PBXGroup;
+			children = (
+				0E0BC3BF2AD3D1660095FA7A /* PrimaryButtonsSwiftUIView.swift */,
+			);
+			path = PrimaryButtons;
+			sourceTree = "<group>";
+		};
+		0E0BC3C12AD3D1750095FA7A /* SecondaryButtons */ = {
+			isa = PBXGroup;
+			children = (
+				0E0BC3C22AD3D1750095FA7A /* SecondaryButtonsSwiftUIView.swift */,
+			);
+			path = SecondaryButtons;
+			sourceTree = "<group>";
+		};
+		0E0BC3C42AD3D17A0095FA7A /* GhostButton */ = {
+			isa = PBXGroup;
+			children = (
+				0E0BC3C52AD3D17A0095FA7A /* GhostButtonSwiftUIView.swift */,
+			);
+			path = GhostButton;
+			sourceTree = "<group>";
+		};
+		0E0BC3C72AD3D1800095FA7A /* Otherbuttons */ = {
+			isa = PBXGroup;
+			children = (
+				0E0BC3C82AD3D1800095FA7A /* OtherButtonsSwiftUIView.swift */,
+			);
+			path = Otherbuttons;
+			sourceTree = "<group>";
+		};
+		0E0BC3CD2AD3D5E80095FA7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0E0BC39F2AD3CA3D0095FA7A /* AdmiralButtonsViewerApp.swift */,
+				0E0BC3B92AD3D0860095FA7A /* ButtonsSwiftUIItem.swift */,
+				0E0BC3B82AD3D0860095FA7A /* ButtonsSwiftUIView.swift */,
+				0E0BC3BC2AD3D0C30095FA7A /* SwiftUIContentViewScheme.swift */,
+				0E0BC3C72AD3D1800095FA7A /* Otherbuttons */,
+				0E0BC3C42AD3D17A0095FA7A /* GhostButton */,
+				0E0BC3C12AD3D1750095FA7A /* SecondaryButtons */,
+				0E0BC3BE2AD3D1660095FA7A /* PrimaryButtons */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0E0BC3CE2AD3D5FD0095FA7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E0BC3A32AD3CA3F0095FA7A /* Assets.xcassets */,
+				0E0BC3CF2AD3D60B0095FA7A /* Generated */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0E0BC3CF2AD3D60B0095FA7A /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				0E0BC3D02AD3D61B0095FA7A /* Assets.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E0BC39B2AD3CA3D0095FA7A /* AdmiralButtonsViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E0BC3AA2AD3CA3F0095FA7A /* Build configuration list for PBXNativeTarget "AdmiralButtonsViewer" */;
+			buildPhases = (
+				0E0BC3982AD3CA3D0095FA7A /* Sources */,
+				0E0BC3992AD3CA3D0095FA7A /* Frameworks */,
+				0E0BC39A2AD3CA3D0095FA7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdmiralButtonsViewer;
+			packageProductDependencies = (
+				0E0BC3B62AD3CE1F0095FA7A /* AdmiralButtonsSwiftUI */,
+			);
+			productName = AdmiralButtonsViewer;
+			productReference = 0E0BC39C2AD3CA3D0095FA7A /* AdmiralButtonsViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E0BC3942AD3CA3D0095FA7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0E0BC39B2AD3CA3D0095FA7A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0E0BC3972AD3CA3D0095FA7A /* Build configuration list for PBXProject "AdmiralButtonsViewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E0BC3932AD3CA3D0095FA7A;
+			productRefGroup = 0E0BC39D2AD3CA3D0095FA7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E0BC39B2AD3CA3D0095FA7A /* AdmiralButtonsViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E0BC39A2AD3CA3D0095FA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0BC3A72AD3CA3F0095FA7A /* Preview Assets.xcassets in Resources */,
+				0E0BC3A42AD3CA3F0095FA7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E0BC3982AD3CA3D0095FA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0BC3BB2AD3D0860095FA7A /* ButtonsSwiftUIItem.swift in Sources */,
+				0E0BC3C32AD3D1750095FA7A /* SecondaryButtonsSwiftUIView.swift in Sources */,
+				0E0BC3C02AD3D1660095FA7A /* PrimaryButtonsSwiftUIView.swift in Sources */,
+				0E0BC3C62AD3D17A0095FA7A /* GhostButtonSwiftUIView.swift in Sources */,
+				0E0BC3BD2AD3D0C30095FA7A /* SwiftUIContentViewScheme.swift in Sources */,
+				0E0BC3A02AD3CA3D0095FA7A /* AdmiralButtonsViewerApp.swift in Sources */,
+				0E0BC3BA2AD3D0860095FA7A /* ButtonsSwiftUIView.swift in Sources */,
+				0E0BC3D12AD3D61B0095FA7A /* Assets.swift in Sources */,
+				0E0BC3C92AD3D1800095FA7A /* OtherButtonsSwiftUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E0BC3A82AD3CA3F0095FA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E0BC3A92AD3CA3F0095FA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E0BC3AB2AD3CA3F0095FA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdmiralButtonsViewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdmiralTeam.AdmiralButtonSwiftUIViewer.AdmiralButtonsViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E0BC3AC2AD3CA3F0095FA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdmiralButtonsViewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdmiralTeam.AdmiralButtonSwiftUIViewer.AdmiralButtonsViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E0BC3972AD3CA3D0095FA7A /* Build configuration list for PBXProject "AdmiralButtonsViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E0BC3A82AD3CA3F0095FA7A /* Debug */,
+				0E0BC3A92AD3CA3F0095FA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E0BC3AA2AD3CA3F0095FA7A /* Build configuration list for PBXNativeTarget "AdmiralButtonsViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E0BC3AB2AD3CA3F0095FA7A /* Debug */,
+				0E0BC3AC2AD3CA3F0095FA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0E0BC3B62AD3CE1F0095FA7A /* AdmiralButtonsSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AdmiralButtonsSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0E0BC3942AD3CA3D0095FA7A /* Project object */;
+}
